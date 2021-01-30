@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import urllib.request
-import bot
 
 def get_it(lat,long):
 
