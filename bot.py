@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import config
 import API as api
-from telegram.ext import *
+from telegram.ext import CallbackContext, Updater, CommandHandler, MessageHandler, Filters
 from telegram import Update
 from telegram import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 
